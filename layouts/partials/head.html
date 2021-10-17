@@ -64,4 +64,10 @@
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
     {{ partial "head_end.html" . }}
+
+        <!-- Twitter Cards -->
+        {{ template "_internal/twitter_cards.html" . }}
+
+        <!-- Open Graph -->
+        {{ template "_internal/opengraph.html" . }}
   </head>
